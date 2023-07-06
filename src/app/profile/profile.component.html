@@ -1,0 +1,39 @@
+<div style="margin:auto;width:60%">
+            <div style="display: inline-block;">
+                        <div class="list-item-title">User Name:</div>
+                        <div class="list-item-content">
+                            {{profile?.userPrincipalName}}
+                        </div>
+                        <div class="list-item-title">First Name:</div>
+                        <div class="list-item-content">
+                            {{profile?.givenName}}
+                        </div>
+                   
+                        <div class="list-item-title">Last Name:</div>
+                        <div class="list-item-content">
+                            {{profile?.surname}}
+                        </div>
+                  
+                        <div class="list-item-title">Job Title:</div>
+                        <div class="list-item-content">
+                            {{profile?.jobTitle}}
+                        </div>
+                  
+                        <div class="list-item-title">Phone Number:</div>
+                        <div class="list-item-content">
+                            {{profile?.mobilePhone}}
+                        </div>
+                   
+                        <div class="list-item-title">Email:</div>
+                        <div class="list-item-content">
+                            {{profile?.mail}}
+                        </div>
+                    
+            </div>
+            <div style="display: inline-block;">
+           
+                   <img [src]="ProfilePic" height="250px" width="250px"/>
+                
+            </div>
+       
+</div>
